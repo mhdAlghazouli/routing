@@ -1,0 +1,17 @@
+<h1 class="has-text-danger" style="font-size: 50px;text-align:center;">${title}</h1>
+
+<table class="table is-bordered" style="width: 100%;">
+  <tr class="has-background-primary">
+    <th >${Object.keys(data)[0].toUpperCase()}:</th>
+    <th >${Object.keys(data)[1].toUpperCase()}:</th>
+    <th >${Object.keys(data)[2].toUpperCase()}:</th>
+    <th >${Object.keys(data)[3].toUpperCase()}:</th>
+  </tr>
+
+  <tr class="has-background-warning">
+    <th >${data.id}</th>
+    <th >${data.slug}</th>
+    <th >${data.name}</th>
+    <th >${data.year}</th>
+  </tr>
+</table>

@@ -1,0 +1,10 @@
+<h1 class="has-text-danger" style="font-size: 50px;text-align:center;">${title}</h1>
+
+<ul class="has-background-danger" style="text-align:center; border: 1px black solid;">
+  ${data.map(ceo => 
+    `<li class="m-5 has-background-warning" style="border: 1px black solid;font-size: 25px;"><a class="has-text-danger" href="./ceos/${ceo.name}">${ceo.name}</a></li>`
+  ).join('')}
+</ul>
+  
+
+</table>
